@@ -18,6 +18,10 @@
     padding-top: 70px;
     padding-bottom: 30px
   }
+
+  #showcase .showcase-content a {
+    margin-top: 8px;
+  }
   
   /* Home Info */
   #home-info .info-img {
