@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0";>
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <meta name="description" content="Welcome to guided day tours for the elderly of Gaveston Texas">
+  <meta name="keywords" content="html, css, JavaScript, Maomo, Gaveston, Elderly, Day tours, Hackathon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <title>Volunteer Golden Getaway Adventures</title>
+</head>
+<body class="volunteer-bg">
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">Golden Getaway Adventures</a></h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="current" href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>  
+      </div>
+    </nav>
+   </header>
+   
+   <h1>Volunteer Application Form</h1>
+    <p class="txt-lg">Thank you for your interest in volunteering with Golden Getaway Adventures.</p>
+
+    <form action="https://formspree.io/f/xzblyvar" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="availability">Availability:</label>
+        <input type="text" id="availability" name="availability" placeholder="Days and hours you are available" required>
+
+        <label for="experience">Previous Experience (if any):</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea>
+
+        <label for="why_volunteer">Why do you want to volunteer with us?</label>
+        <textarea id="why_volunteer" name="why_volunteer" rows="4" required></textarea>
+
+        <label for="references">References:</label>
+        <input type="text" id="references" name="references" placeholder="Provide names and contact information of two references" required>
+
+        <h2 class="volunteer-experience">Areas of Interest:</h2>
+
+        <label for="tour_guide">
+            <input type="checkbox" id="tour_guide" name="interests" value="Tour Guide">
+            Tour Guide
+        </label>
+
+        <label for="driver">
+            <input type="checkbox" id="driver" name="interests" value="Driver">
+            Driver
+        </label>
+
+        <label for="other">
+            <input type="checkbox" id="other" name="interests" value="Other">
+            Other
+        </label>
+        <input type="text" id="other_interest" name="other_interest" placeholder="Specify if 'Other' is selected">
+
+        <input type="submit" value="Submit Application">
+    </form>
+  
+  <footer class="main-footer">
+    <p>GGA &copy; 2023, All Rights Reserved Golden Getaway Adventures</p>
+  </footer>
+</body>
+</html>
