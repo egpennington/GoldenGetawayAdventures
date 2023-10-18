@@ -1,6 +1,11 @@
-#navbar .logo {
-    float: none;
-    text-align: center;
+  #navbar {
+    padding-top: 20px;
+  }
+
+  #navbar .logo {
+    float: left;
+    margin-right: 10px;
+    height: 65px;
   }
   
   #navbar ul,
