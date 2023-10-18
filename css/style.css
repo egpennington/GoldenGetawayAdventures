@@ -67,6 +67,9 @@
     background: #f4f4f4;
     color: #333;
   }
+ .bg-white {
+     color: white;
+ }
   .bg-dark {
     background: #333;
     color: #fff;
@@ -79,6 +82,13 @@
     background: #f7c09a;
     color: #333;
   }
+
+  .menu-btn {
+    cursor: pointer;
+    z-index: 2;
+    display: none;
+  }
+
   .clr {
     clear: both;
   }
